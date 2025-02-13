@@ -1,10 +1,10 @@
 .b1{
-    border: 2px solid red;
-    width:280px;
-    height:300px;
+    border: 0.6vw solid rgb(243, 15, 15);
+    width:25vw;
+    height:50vh;
     margin: 1% 1%;
     background-color:rgba(199, 9, 9, 0.788);
-    box-shadow: 10px 5px;
+    box-shadow: 1vw 1vh;
     
     
 
@@ -14,10 +14,10 @@
     height:70%;
 }
 .b2 >span{
-    background-color:rgb(224, 29, 29);
+    background-color:rgb(119, 10, 10);
     color: wheat;
-    margin-left: 50px;
-    border-radius: 2px;
+    margin-left: 3vw;
+    border-radius: 1%;
 }
 .b1 >p{
     margin: 0;
@@ -27,11 +27,12 @@
 .container{
     display: flex;
     flex-direction:row;
-    margin: 10px;
+    margin: 2vw;
     background-color: rgb(196, 107, 107);
 }
 body{
     background-color:rgb(223, 7, 7);
+    scroll-behavior: smooth;
 }
 
 
