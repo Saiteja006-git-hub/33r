@@ -1,7 +1,11 @@
-
+h2{
+    margin:0px;
+}
 body{
     background-color: rgb(226, 197, 197);
     scroll-behavior: smooth;
+    margin:0px;
+    padding:0px;
 
 }
 .main-container{
@@ -13,8 +17,8 @@ body{
 }
 #img{
     background-color: aqua;
-    width:400px;
-    height:400px;
+    width:320px;
+    height:38vh;
     border-radius:20px;
     
     
@@ -24,11 +28,11 @@ body{
     position: absolute;
     top: 20%;
     left: 20%;
-    z-index: 0;
+    z-index: 2;
 }
 #img2{
     width:400px;
-    height:500px;
+    height:52vh;
     border-radius: 20px;
     
     
@@ -41,23 +45,23 @@ body{
     z-index: 1;
 }
 #content{
-    width: 510px;
+    width: 400px;
     position: absolute;
-    left: 50%;
+    left: 60%;
     top: 50%;
     right:20px;
     background-color:wheat;
     border-radius: 4%;
-    height:400px;
+    height:48vh;
     padding: 5px 10px;
 
-    z-index: 2;
+    z-index: 1;
 }
 #content >span{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:orangered;
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
 
 }
 #content >ul>li{
@@ -74,39 +78,40 @@ body{
 }
 #img3{
     width:400px;
-    height: 550px;
+    height: 59vh;
     border-radius: 10px;
 }
 
 #d4{
     position:absolute;
-    left: 10%;
+    left: 8%;
     top:130%;
+    z-index: 0;
 }
 #img4{
-    width:400px;
-    height:380px;
+    width:350px;
+    height:46vh;
     border-radius:10px;
 }
 #d5{
     position:absolute;
-    
     top:130%;
-    right:12%;
-    
+    right:9%;
+    z-index: 1;
     
 
 }
 #a5{
-    width:490px;
-    height:380px;
+    width:340px;
+    height:46vh;
     border-radius:10px;
+    z-index: 0;
 
     
 }
 #r{
     width:150px;
-    height:150px;
+    height:18vh;
     position :relative;
     left:20px;
     top:10px;
