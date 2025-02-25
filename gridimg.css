@@ -1,0 +1,10 @@
+#parent{
+    display:grid;
+    grid-template-columns: repeat(autofit,minmax( 200px,1fr,1fr));
+    
+}
+#parent > img{
+    width:30%;
+    
+    border-radius: 20px;
+}
